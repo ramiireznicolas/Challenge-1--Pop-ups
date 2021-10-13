@@ -31,6 +31,10 @@ img{
     padding: 4% 15%;
 }
 
+.btn1:hover{
+    background-color: #e9503c;
+}
+
 .btn1 a{
     text-decoration: none;
     color: white;
@@ -43,6 +47,10 @@ img{
     cursor: pointer;
     font-size: 1em;
     padding: 4% 15%;
+}
+
+.btn2:hover{
+    background-color: #1d354d;
 }
 
 .btn2 a{
