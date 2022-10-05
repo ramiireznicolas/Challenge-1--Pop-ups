@@ -7,12 +7,8 @@ body{
 
 
 img{
-    margin: 8% 0;
-}
-
-.todo{
-    display: flex;
-    flex-direction: column;
+    margin: 20px auto;
+    width: 130px;
 }
 
 .container{
@@ -20,13 +16,13 @@ img{
     text-align: center;
     margin: auto;
     border-radius: 10px;
-    height: 389px;
-    width: 422px;
-    margin-top: 1%;
+    height: 310px;
+    width: 300px;
+    margin-top: 10px;
 }
 
 .btn1{
-    margin: 5% 0;
+    margin: 5px;
     border-radius: 15px;
     background-color: #ED6755;
     cursor: pointer;
@@ -38,13 +34,13 @@ img{
     background-color: #e9503c;
 }
 
-.btn1 a{
+.btn1 a, .btn2 a{
     text-decoration: none;
     color: white;
 }
 
 .btn2{
-    margin: 5% 0;
+    margin: 5px;
     border-radius: 15px;
     background-color: #2c3E50;
     cursor: pointer;
@@ -56,39 +52,6 @@ img{
     background-color: #1d354d;
 }
 
-.btn2 a{
-    text-decoration: none;
-    color: white;
-}
-
 p{
-    font-size: 1.2em;
-}
-
-/* mediaqueries */
-
-@media (max-width:540px){
-    .container{
-        height: 317px;
-        width: 350px;
-    }
-
-    p{
-        font-size: 1em;
-    }
-
-    .btn1{
-        margin: 0;
-    }
-
-    img{
-        margin: 10% 0;
-    }
-}
-
-@media (max-width:540px){
-    .container{
-        height: 300px;
-        width: 333px;
-    }
+    font-size: 1em;
 }
